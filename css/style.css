@@ -216,35 +216,67 @@ main .section-three{
     width: 1440px;
     height: 732px;
     top: 1016px;
+    background-color: #F4F4FD;
 }
 
-main .section-three .teamcard-h{
-    margin-bottom: 72px;
-}
-
-main .section-three .teamcards{
+main .section-three .container .teamcard-h{
+    position: relative;
     display: flex;
-    gap: 24px;
-    
+    margin-bottom: 72px;
+    top: 0px;
+    left:639px ;
+    width: 170px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
 }
 
-main .section-three .teamcards .teamcard-li{
+main .section-three .container .teamcards{
+    position: relative;
+    display: flex;
+    left: 156px;
+    padding: 0%;
+    gap: 24px;
+}
+
+main .section-three .container .teamcards .teamcard-li{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     list-style-type: none;
-
+    background-color: #FFFFFF;
 }
 
-main .section-three .teamcards .teamcard-li .team-member{
+main .section-three .container .teamcards .teamcard-li .team-member{
     padding: 32px 0;
 
 }
 
-main .section-three .teamcards .teamcard-li .team-member .teamcards-h{
+main .section-three .container .teamcards .teamcard-li .team-member .teamcards-h{
     text-align: center;
     margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
-main .section-three .teamcards .teamcard-li .team-member .teamcards-h .teamcards-p{
+main .section-three .container .teamcards .teamcard-li .team-member .teamcards-p{
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
 }
