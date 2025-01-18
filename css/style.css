@@ -158,30 +158,49 @@ main .hero-image .container .service-button:focus{
     background-color: #404bbf;
 }
 
-.section-two{
+main .section-two{
+    position: absolute;
+    display: flex;
     padding: 120px 0;
+
 }
 
-.section-two .container h2 .visually-hidden{
-    visibility: hidden;
-}
-
-.section-two .container .features{
+main .section-two .container .features{
     position:absolute;
     display: flex;
+    top: 792px;
+    left: 156px;
+    width: 1128px;
+    height: 104px;
     gap: 24px;
+    padding: 0%;
 
 }
 
-.section-two .container .features .feature-li{
-    width: 264px;
+main .section-two .container .features .feature-li{
+    width: calc((100% - 72px) / 4);
 }
 
-.section-two .container .features .feature-li .feature-h{
+main .section-two .container .features .feature-li .feature-h{
     margin-bottom: 8px;
+    width: 264px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 
 }
 
-.section-two .container .features .feature-li p{
-    
+main .section-two .container .features .feature-li p{
+     width: 270px;
+    height: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
