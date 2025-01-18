@@ -24,25 +24,98 @@ ul{
     position: relative;
     display: flex;
     align-items: center;
+    
 
 }
 
 .topline .container .nav-menu .logo{
     margin-right: 76px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5 ;
+    text-decoration: none;
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 0px;
+}
+
+.topline .container .nav-menu .logo .logo-studio{
+    color: #2E2F42;
 }
 
 .topline .container .nav-menu .menu-list{
     position: relative;
     display: flex;
+    padding-left: 0%;
     gap: 40px;
+    width: 261px;
+    height: 24px;
+    top: 0px;
+    left: 76px;
+    gap: 40px;
+    
 }
 
 .topline .container .nav-menu .menu-list .menu{
     padding: 24px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.topline .container .nav-menu .menu-list .menu:hover{
+    color: #404bbf;
+}
+
+.topline .container .nav-menu .menu-list .menu:focus{
+    color: #404bbf;
+}
+
+.topline .container address{
+    font-style: normal;
+    padding: 0%;
 }
 
 .topline .container address .informations{
 position: relative;
 display: flex;
 gap: 40px;
+top: 7px;
+left:300px ;
+}
+
+.topline .container address .informations a {
+    text-decoration: none;
+}
+
+.topline .container address .informations a:hover {
+    color: #404bbf;
+}
+
+main .hero-image{
+    padding: 188px 0;
+
+}
+
+main .hero-image .container .motto{
+    max-width: 496px;
+}
+
+main .hero-image .container .service-button{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
